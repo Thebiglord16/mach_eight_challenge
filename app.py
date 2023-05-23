@@ -7,7 +7,7 @@ target = int(input())
 scoped_values = set()
 tuple_array = []
 for i in input_values:
-    if 12 - i in scoped_values:
+    if target - i in scoped_values:
         tuple_array.append((i, 12-i))
         scoped_values.add(i)
     else:
